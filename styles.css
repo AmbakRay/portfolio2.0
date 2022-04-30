@@ -1,0 +1,231 @@
+*{
+				margin: 0;
+				padding: 0;
+}
+
+body {
+				background-color: #ececec;
+}
+
+header {
+  background:#ffffff;
+  color:#000;
+  padding-top:10px;
+  min-height:60px;
+  border-bottom:#e8491d00 3px solid;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:18px;
+  height: 30px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 12px 12px 12px;
+}
+
+header #branding{
+  float:left;
+  margin-left:10%;
+  
+}
+
+header #branding h1{
+  margin:0;
+  margin-left: 10%;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current hr{
+			width:80%;
+			height: 4px;
+			background-color:#fff22a;
+			margin: 10px 10% 0 10%;
+			border:0px;
+			border-radius:7px;
+}
+
+header .highlight, header .current a{
+  color: #fff22a;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+/* ----main -----*/
+#main{
+				width:100%;
+				height:450px;
+				background:url("../img/a3.jpg") ;
+				background-size:100% 100% ;
+				background-repeat:no-repeat;
+				
+}
+#main_txt {
+				width:38%;
+				height: 60%;
+				float:left;
+				margin-top:10%;
+				margin-bottom:2%;
+				margin-left:10%;
+}
+
+h2{
+				font-size:40px;
+				color:#fff22a;
+				width:100%;
+				margin-bottom:20px;
+}
+
+main_txt p{
+				width:270px;
+				height: 60%;
+				float:left;
+				margin-top:25px;
+				font-size:30px;
+}
+
+#main_txt button{
+				width:160px;
+				height: 50px;
+				float:left;
+				margin-top:25px;
+				margin-left: 50px;
+				margin-right: 50px;
+				background-color:#fff22a;
+				border:0px;
+				border-radius:8px;
+}
+
+/* ---aboutMe--- */
+#about{
+		text-align:left;
+		background:#ffffff;
+  color:#000;
+  padding-top:10px;
+  min-height:400px;
+  border-bottom:#e8491d00 3px solid;
+  margin:12px 0 30px 0 ;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#about h3 hr, #main hr{
+				width: 50%;
+				background: #fff22a;
+				height: 6px;
+				border:none;
+				margin-left:30px;
+				border-radius:7px;
+}
+#about_txt{
+				width:60%;
+				height: 60%;
+				float:left;
+				margin-top:15px;
+				margin-bottom:20%;
+				margin-left:10%;
+				font-size:25px ;
+}
+ #about h3{
+				margin-top:6%;
+				font-size:40px;
+				color:#fff22a;
+				margin-bottom:3%;
+				width:40%;
+				margin-bottom:20px;
+}
+
+
+/* ---Services--- */
+#Services{
+		text-align:left;
+		background:#ffffff;
+  color:#000;
+  padding-top:10px;
+  min-height:1200px;
+  border-bottom:#e8491d00 3px solid;
+  margin:0px 0 30px 0 ;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#Services h3 hr, #main hr{
+				width: 50%;
+				background: #fff22a;
+				height: 6px;
+				border:none;
+				margin-left:30px;
+				border-radius:7px;
+}
+#Services_txt{
+				width:60%;
+				height: 60%;
+				float:left;
+				margin-top:0px;
+				margin-bottom:20%;
+				margin-left:10%;
+}
+ #Services h3{
+				margin-top:6%;
+				font-size:40px;
+				color:#fff22a;
+				margin-bottom:3%;
+				width:40%;
+				margin-bottom:20px;
+}
+
+.service_tab{
+				width:40%;
+				height:180px;
+				color:#fff;
+				text-align:center;
+				margin:50px 10% 0 10%;
+				background: #ff7fdd;
+				border:0.1px #ffffff00;
+				border-radius:9px;
+				
+}
+#website_design{
+				float:left;
+				background:url("../img/a3.jpg") ;
+				background-size:100% 100% ;
+				background-repeat:no-repeat;
+}
+#database_design{
+				float:right;
+				background:url("../img/a3.jpg") ;
+				background-size:100% 100% ;
+				background-repeat:no-repeat;
+}
+#network_design{
+				float:left;
+				background:url("../img/a3.jpg") ;
+				background-size:100% 100% ;
+				background-repeat:no-repeat;
+}
+#application_design{
+				float:right;
+				background:url("../img/a3.jpg") ;
+				background-size:100% 100% ;
+				background-repeat:no-repeat;
+}
+.service_tab .txt{
+				height: 30%;
+				font-size:30px;
+				margin:35% 20px 35% 4px;
+}
+
+
